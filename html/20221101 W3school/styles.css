@@ -2,4 +2,4 @@ body {background-color: green;}
 h1  {color: red}
 p {color: blue}
 p {border: 2px solid powderblue;
-padding: 30px;}
+padding: 30px; margin: 50px;}
