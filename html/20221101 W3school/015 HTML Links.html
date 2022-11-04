@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Links</title>
+    <title>Bai tap HTML Links</title>
 </head>
 <body>
-    <a href="http://127.0.0.1:5500/Aptech/baitapaptech/html/20221101%20W3school/015%20HTML%20Links.html" target="_parent"> Link mo lai tab parent</a>
-    <a href="http://127.0.0.1:5500/Aptech/baitapaptech/html/20221101%20W3school/015%20HTML%20Links.html" target="_blank"> Link mo lai tab blank</a>
-    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools! blank</a> <br>
-    <a href="https://www.w3schools.com/" target="_self">Visit W3Schools! self</a> <br>
-    <a href="https://www.w3schools.com/" target="_top">Visit W3Schools! top</a> <br>
+    <h4>1. Link with blank self top attribute </h4>
+    <a href="https://www.w3schools.com/" target="_blank">blank</a> 
+    <a href="https://www.w3schools.com/" target="_self">self</a> 
+    <a href="https://www.w3schools.com/" target="_top">top</a> <br>
+
+    <h4>2. Link with image</h4>
+    <a href="001 html home.html">
+        <img src="tdd.jpg" alt="tddlogo" style="width: 20%;">
+    </a>
+    <a href="mailto: thodd90@gmail.com">
+        thoddth90@gmail.com
+    </a>
+
+    <h4>3. Link with button</h4>
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+    <button class="GFG" 
+        onclick="window.location.href=https://ide.geeksforgeeks.org';">
+        Click Here
+    </button>
+    <a href='https://ide.geeksforgeeks.org/' title="Go to geeksforgeeks.org">
+        <button class="GFG">Click Here</button>
+    </a>
+    <style>
+        .teal {padding:5px;background:teal;color:white;}
+      </style>
+    <br> <br>
+    <button class="teal"
+    onclick="alert('Button was clicked!');">Clickable Button</button> <!--Can tim hieu them phan nay-->
+
+    <button onclick="myFunction()">Click me</button> <!--Chua hieu phan nay-->
+
+
+
+
+
+
+    <p>Clink to learn about <a href="https://en.wikipedia.org/wiki/Claude_Monet" target="display-frame">Claude Monet </a> </p>
+    <iframe name="display-frame" frameborder="1px" solid width="1200px" height="800px" ></iframe>
+
 </body>
 </html>
