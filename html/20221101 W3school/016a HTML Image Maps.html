@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Image Map</h1>
+    <img src="image/workplace.jpg" alt="workplace" style="width:400px" usemap="#workplace">
+    <map name="workplace">
+        <area target="_blank" 
+            href="https://en.wikipedia.org/wiki/Computer" 
+            coords="32,39,273,346" 
+            shape="rect">
+        <area target="_blank"
+            href="https://en.wikipedia.org/wiki/Coffee" 
+            coords="338,301,44" 
+            shape="circle"
+            onclick="myFunction()">
+    </map>
+    <script>
+        function myFunction() {
+            alert("You clicked the coffee cup");
+        }
+    </script>
+</body>
+</html>
