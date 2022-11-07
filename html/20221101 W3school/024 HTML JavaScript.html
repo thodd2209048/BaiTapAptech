@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Java Script</title>
+    <link rel="icon" href="favicon/cry.png">
+</head>
+<body>
+    <h1>HTML Java Script</h1>
+    <button onclick='document.getElementById("demo").innerHTML = "Nothing here."'>
+        click
+    </button>
+    <p id="demo">This is a demonstration.</p>
+    <img id="2or3" src="image/2.jpg" alt="number 2" width="300px">
+    <script>
+        function number3() {
+            document.getElementById('2or3').src = 'image/3.jpg'
+        }
+    </script>
+    <br>
+    <button onclick="number3()">Number 3</button>
+
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+</html>

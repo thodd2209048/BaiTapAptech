@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML class Attribute
+    </title>
+    <link rel="icon" href="favicon/android-chrome-192x192.png">
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        }
+        .important {
+            font-weight: bold;
+            color: red;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>HTML class Attribute</h1>
+    <button onclick="hideCity()">Hide City</button>
+
+    <h2 class="city">London</h2>
+    <p><span class="important ">London</span> is the capital of England.</p>
+    <h2 class="city">Paris</h2>
+    <p><span class="important">Paris</span> is the capital of France.</p>
+    <h2 class="city">Tokyo</h2>
+    <p><span class="important">Tokyo</span> is the capital of Japan.</p>
+    <script>
+        function hideCity() {
+            var x = document.getElementsByClassName("city");
+            for(var i = 0; i < x.length; i++) {
+                x[i].style.display = "";
+            }
+        }
+    </script>
+</body>
+</html>

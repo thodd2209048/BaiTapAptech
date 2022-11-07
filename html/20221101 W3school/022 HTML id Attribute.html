@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML id Attribute</title>
+    <link rel="icon" href="favicon/favicon-16x16.png">
+    <style>
+        #myHeader {
+            background-color: lightblue;
+            color: darkgreen;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myHeader">HTML id Attribute</h1>
+    <a href="#myHeader">Jump to Header</a>
+    <script>
+        function displayResult() {
+          document.getElementById("myHeader").innerHTML = "Have a nice day!";
+        }
+        </script>
+    <button onclick="displayResult()">Display result</button>
+</body>
+</html>
