@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Forms</title>
     <link rel="icon" href="favicon/favicon-16x16.png">
+    <style>
+      fieldset {
+        width: 500px;
+      }
+    </style>
 </head>
 <body>
   <h1>HTML Forms</h1>
-  <form action="/action_page.php">
-    <label for="fname">First name:</label> <br>
-    <input type="text" id="fname" name="fname" placeholder="John"><br>
-    <label for="lname">Last name:</label> <br>
-    <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
-    <input type="submit" value="Submit">
+  <form action="/action_page.php" target="_blank">
+    <fieldset>
+      <legend>Your details:</legend>
+      <label for="fname">First name:</label> <br>
+      <input type="text" id="fname" name="fname" placeholder="John"/><br>
+      <label for="lname">Last name:</label> <br>
+      <input type="text" id="lname" name="lname" placeholder="Doe"/><br><br>
+      <input type="submit" value="Submit"/>
+    </fieldset><br>
+      <fieldset>
+        <legend>Choose your favourite language:</legend>
+        <label for="html"><input type="radio" id="html" name="favourite"/>HTML</label>
+        <label for="css"><input type="radio" id="css" name="favourite"/>CSS</label>
+        <label for="js"><input type="radio" id="js" name="favourite"/>Java Script</label>
+      </fieldset><br>
+      <fieldset>
+        <label for="bike"><input type="checkbox" id="bike" name="bike"/> I have a bike</label><br>
+        <label for="car"><input type="checkbox" id="car" name="car"/> I have a car</label><br>
+        <label for="boat"><input type="checkbox" id="boat" name="boat"/> I have a boat</label>
+      </fieldset> <br>
+
   </form>
 </body>
 </html>
