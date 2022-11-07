@@ -8,15 +8,53 @@
     <link rel="icon" href="favicon/favicon-16x16.png">
     <style>
         h1 {text-align: center;}
+        * {
+            box-sizing: border-box;
+        }
+        .left {
+            background-color: #2196F3;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        .main {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+        .right {
+            background-color: #04AA6D;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>HTML Responsive Web Design</h1>
-<picture>
-    <source srcset="image/mouse.jpg" media="(max-width: 600px)">
-    <source srcset="image/lion.jpg" media="(max-width: 1200px)">
-    <source srcset="image/elephant.jpg" media="(max-width: 1500px">
-    <img src="image/elephant.jpg" alt="animal">
-</picture>
+    <h1 style="font-size:10vw">Hello World</h1>
+    <div class="left">
+        <p>Left Menu</p>
+      </div>
+    <div class="main">
+        <p>Main Content</p>
+        <picture>
+            <source srcset="image/mouse.jpg" media="(max-width: 600px)">
+            <source srcset="image/lion.jpg" media="(max-width: 1200px)">
+            <source srcset="image/elephant.jpg" media="(max-width: 1500px">
+            <img src="image/elephant.jpg" alt="animal">
+        </picture>
+    </div>
+      
+    <div class="right">
+        <p>Right Content</p>
+    </div>
+
 </body>
 </html>
