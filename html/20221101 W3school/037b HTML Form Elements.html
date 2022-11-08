@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The HTML <form> Elements</title>
+        <link rel="icon" href="favicon/favicon-16x16.png">
+</head>
+<body>
+    <h1>The HTML <code>&ltform&gt</form></code> Elements</h1>
+    <form action="noway.html">
+        <fieldset style="width: 500px;">
+            <legend>Test 1</legend>
+            <label for="fname">First Name:
+                <input type="text" id="fname" name="fname">
+            </label><br><br>
+            <label for="car">Chose your car:</label>
+            <select name="car" id="car" size="3" multiple>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+            <textarea name="message" cols="30" rows="10"></textarea>
+        </fieldset><br>
+        <fieldset style="width: 500px;">
+            <legend>Test 2</legend>
+            <form action="noway.com" 
+                oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                0
+                <input type="range" id="a" name="a" value="50"/>
+                + 100
+                <input type="number" id="b" name="b" value="50"/>
+                =
+                <output name="x" for="a b"></output>
+                <br><br>
+                <input type="submit">
+            </form>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Input type</legend>
+            <label for="test3">Test 3</label>
+            <input type="date" id="test3" name="test3"/><br><br>
+            <input type="datetime-local"/><br><br>
+            <input type="reset">
+        </fieldset><br>
+        <fieldset>
+            <legend>Input attribute</legend>
+            <form action="noway.com">
+                <label for="test4">Test 4</label>
+                <input type="text" id="test4" name="test4" readonly/><br><br>
+                <label for="test4_1">Test 4_1</label>
+                <input type="text" id="test4_1" name="test4_1" value="Can not change" disabled>
+                <br><br>
+                <label for="country_code">Country code</label>
+                <input type="text" id="country_code" name="country_code" pattern="[A-Z a-z]{3}" title="Three letter country code"><br><br>
+            </form>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" autofocus><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </fieldset>
+    </form>
+</body>
+</html>
