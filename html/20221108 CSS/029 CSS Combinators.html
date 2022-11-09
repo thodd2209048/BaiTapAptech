@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Combinators</title>
+    <style>
+        div p {
+            background-color: yellowgreen;
+        }
+        div > p {
+            text-decoration: underline;
+        }
+        div + p {
+            color: red;
+        }
+        div ~ p {
+            font-variant: small-caps;
+        }
+    </style>
 </head>
 <body>
     <h1>CSS Combinators</h1>
+    <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section>
+          <!-- not Child but Descendant -->
+          <p>Paragraph 3 in the div (inside a section element).</p>
+        </section>
+        <p>Paragraph 4 in the div.</p>
+      </div>
+      <p>Paragraph 5. Not in a div.</p>
+      <p>Paragraph 6. Not in a div.</p>
+      <p>Paragraph 7. Not in a div.</p>
 </body>
 </html>
