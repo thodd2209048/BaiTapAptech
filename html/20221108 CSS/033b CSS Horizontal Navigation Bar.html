@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Horizontal Navigation Bar</title>
+    <link rel="icon" href="../favicon/favicon-16x16.png">
+    <style>
+        ul {
+            list-style-type: none;
+            background-color: #828282;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            position: sticky;
+            bottom: 0;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            text-decoration: none;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: block;
+            padding: 14px 16px;
+            background-color: #828282;
+            text-align: center;
+            border-right: white 1px solid;
+        }
+        li a:hover {
+            background-color: rgb(55, 55, 55);
+        }
+        .now {
+            background-color: rgb(4,170,109);
+        }
+        li.right {
+            float: right;
+        }
+        @media screen and (max-width: 600px) {
+        ul li.right, 
+        ul li {float: none;}
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Horizontal Navigation Bar</h1>
+    <ul>
+        <li><a class="now" href="home.html">Home</a></li>
+        <li><a href="noway.html">News</a></li>
+        <li><a href="noway.html">Contact</a></li>
+        <li class="right"><a href="noway.html">About</a></li>
+    </ul>
+</body>
+</html>
