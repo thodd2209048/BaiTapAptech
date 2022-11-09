@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-classes</title>
+    <style>
+        a.highlight:hover {
+          color: #ff0000;
+          font-size: 22px;
+        } 
+        div p {
+            display: none;
+            background-color: #ff0000;
+            padding: 10px;
+        }
+        div:hover p {
+            display: block;
+        }
+        p:first-child {
+            font-variant: small-caps;
+        }
+        q:lang(no) {
+            quotes: "~" "~";
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Pseudo-classes</h1>
+    <p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+    <p><a href="default.asp">CSS Tutorial</a></p>
+    <div>Xem dap an
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore ab eius iure animi error dicta.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, reiciendis.</p>
+    </div>
+    <p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+</body>
+</html>
