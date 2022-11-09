@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout - Float Examples</title>
+    <link rel="icon" href="../favicon/favicon-16x16.png">
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        .box {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        }
+        .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Layout - Float Examples</h1>
+    <div class="clearfix">
+        <div class="box" style="background-color:#bbb">
+        <p>Some text inside the box.</p>
+        </div>
+        <div class="box" style="background-color:#ccc">
+        <p>Some text inside the box.</p>
+        </div>
+        <div class="box" style="background-color:#ddd">
+        <p>Some text inside the box.</p>
+        </div>
+    </div>
+</body>
+</html>

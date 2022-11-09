@@ -7,16 +7,32 @@
     <title>CSS Links</title>
     <link rel="icon" href="../favicon/favicon-16x16.png">
     <style>
-        a {
-            color: green
+        a.l1 {
+            color: pink;
+            text-decoration: underline;
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
         }
-        a.hover {
-            color:hotpink
+        a.l1:hover {
+            color:hotpink;
+            background-color: blue;
+        }
+        a.l2 {
+            border: 1px solid green;
+            border-radius: 5px;
+            padding: 5px;
+            display: inline-block;
+        }
+        a.l2:hover {
+            background-color: rgb(128, 131, 130);
         }
     </style>
 </head>
 <body>
     <h1>CSS Links</h1>
-    <a href="https://vi.wikipedia.org/wiki/Ch%C3%B3">Wikipedia</a>
+    <a class="l1" href="https://vi.wikipedia.org/wiki/Ch%C3%B3">Wikipedia</a><br><br>
+    <a class="l2" href="https://vi.wikipedia.org/wiki/Ch%C3%B3">Wikipedia</a>
 </body>
 </html>

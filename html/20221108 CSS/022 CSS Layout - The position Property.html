@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout - The position Property</title>
+    <style>
+        div.relative {
+          position: relative;
+          left: 30px;
+          border: 3px solid #73AD21;
+        }
+        div.static {
+        position: static;
+        border: 3px solid #73AD21;
+        }
+        div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73AD21;
+        }
+        div.absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        }
+        div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #cae8ca;
+        border: 2px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Layout - The position Property</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore eaque dolores quas sed magni ipsum.</p>
+    <div class="relative">
+        This div element has position: relative;
+    </div><br>
+    <div class="static">
+        This div element has position: static;
+    </div><br>
+    <div class="fixed">
+        This div element has position: fixed;
+    </div>
+    <div class="relative">This div element has position: relative;
+        <div class="absolute">This div element has position: absolute;</div>
+    </div>
+    <div class="sticky">I am sticky!</div>
+</body>
+</html>
