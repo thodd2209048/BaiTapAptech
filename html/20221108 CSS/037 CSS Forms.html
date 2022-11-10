@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Forms</title>
+    <link rel="icon" href="../favicon/favicon-16x16.png">
+    <style> 
+        input {
+          width: 100%;
+          padding: 8px;
+          margin: 10px;
+          border: 1px solid red;
+          border-radius: 5px;
+          background-color: tan;
+          color: white;
+        }
+        input[type="text"]:focus {
+            background-color: black;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            resize: none;
+            box-sizing: border-box;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Forms</h1>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" maxlength="40" id="fname" name="fname">
+    </form>
+    <form>
+        <label for="comment">Comment:</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="10">Text...</textarea>
+    </form>
+    <form>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="australia">Australia</option>
+            <option value="vietnam ">Vietnam</option>
+            <option value="china">China</option>
+        </select>
+    </form>
+</body>
+</html>

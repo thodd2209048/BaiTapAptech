@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Attribute Selectors</title>
+    <link rel="icon" href="../favicon/favicon-16x16.png">
+    <style>
+        a[target] {
+            background-color: yellow;
+        }
+        a[target="_blank"] {
+            background-color: blueviolet;
+        }
+        [title~="flower"] {
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Attribute Selectors</h1>
+    <h2>CSS [attribute] Selector</h2>
+    <p>The links with a target attribute gets a yellow background:</p>
+
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <img src="klematis.jpg" title="klematis flower" width="150" height="113">
+    <img src="img_flwr.gif" title="flower" width="224" height="162">
+    <img src="img_tree.gif" title="tree" width="200" height="358">
+</body>
+</html>

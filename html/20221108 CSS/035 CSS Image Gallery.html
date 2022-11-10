@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Image Gallery</title>
+    <style>
+        .gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+        .gallery:hover {
+            border: 1px solid black;
+        }
+        .gallery img{
+            width: 100%;
+            height: auto;
+        }
+        .desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Image Gallery</h1>
+    <div class="gallery">
+        <a href="../image/elephant.jpg" target="_blank">
+            <img src="../image/elephant.jpg" alt="elephant" width="600px" height="400px">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="../image/lion.jpg">
+          <img src="../image/lion.jpg" alt="Lion" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="../image/Hippo.jpg">
+          <img src="../image/Hippo.jpg" alt="Hippo" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="../image/Giraffe.jpg">
+          <img src="../image/Giraffe.jpg" alt="Giraffe" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+</body>
+</html>
