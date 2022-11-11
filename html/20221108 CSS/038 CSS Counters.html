@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Counters</title>
+    <style>
+        body {
+            counter-reset: chapter;
+        }
+        h2::before {
+            counter-increment: chapter;
+            content: "Chapter " counter(chapter) ": ";
+        }
+    </style>
+</head>
+<body>
+    <h1>Using CSS Counters</h1>
+
+    <h2>HTML Tutorial</h2>
+    <h2>CSS Tutorial</h2>
+    <h2>JavaScript Tutorial</h2>
+    <h2>Python Tutorial</h2>
+    <h2>SQL Tutorial</h2>
+</body>
+</html>
