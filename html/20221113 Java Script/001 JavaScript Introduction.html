@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Can JavaScript Do?</title>
+</head>
+<body>
+    <h1>What Can JavaScript Do?</h1>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta numquam vero eum aut quos quisquam.</p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML='Hello World!'">click here</button>
+    <h2>Tunr on / Turn off</h2>
+    <button type="button" onclick="document.getElementById('bulb').src='../image/pic_bulboff.gif'">Turn off</button>
+    <img id="bulb" src="../image/pic_bulboff.gif" alt="bulboff"/>
+    <button type="button" onclick="document.getElementById('bulb').src='../image/pic_bulbon.gif'">Turn on</button>
+    <h2>Change font size</h2>
+    <p id="font-size">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eligendi nihil officia provident in, minus fugit enim debitis ab doloribus.</p>
+    <button type="button" onclick="document.getElementById('font-size').style.fontSize='30px'">Change font size: 30px</button>
+    <button type="button" onclick="document.getElementById('font-size').style.display='none'">Display hidden</button>
+    <button type="button" onclick="document.getElementById('font-size').style.display='block'">Display block</button>
+</body>
+
+</html>
