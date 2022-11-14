@@ -8,15 +8,17 @@
 </head>
 <body>
   <p id="demo"></p>
+  <script>
+    let a = 9999999999999999n;
+    document.getElementById('demo').innerHTML = a;
+  </script>
+  <p id="demo1"></p>
 
   <script>
-    let myNumber = 2;
-    let txt = "";
-    while (myNumber != Infinity) {
-      myNumber = myNumber * myNumber;
-      txt = txt + myNumber + "<br>";
-    }
-    document.getElementById('demo').innerHTML = txt;
+  let x = 5n;
+  let y = Number(x) / 2;
+
+  document.getElementById("demo1").innerHTML = y; 
   </script>
 </body>
 </html>
