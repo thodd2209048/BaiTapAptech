@@ -8,5 +8,23 @@
 </head>
 <body>
   <h1>JavaScript Objects</h1>
+  <p id="demo1">car</p>
+  <script>
+    let car = {type:'Fiat', model:'500', color:'white'};
+    document.getElementById('demo1').innerHTML='The car type is ' + car.type;
+  </script>
+  <p id="demo2">Lorem ipsum dolor sit.</p>
+  <script>
+    const person = {
+      firstName: "John",
+      lastName : "Doe",
+      id       : 5566,
+      fullName : function() {
+        return this.firstName + " " + this.lastName;
+      }
+    };
+    document.getElementById('demo2').innerHTML=person.fullName();
+  </script>
+
 </body>
 </html>
