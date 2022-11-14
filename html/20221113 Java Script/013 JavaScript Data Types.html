@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Data Types</title>
+</head>
+<body>
+  <h1>JavaScript Data Types</h1>
+  <script>
+    let x = 16 + 4 + 'Volvo';
+    document.write(x);
+  </script>
+  <br>
+  <script>
+    let y = 'Volvo' + 16 + 4;
+    document.write(y);
+  </script><br>
+  <script>
+    let a = 123e5;
+    let b = 123e-5;
+    document.write(a + "<br>" + b);
+    "<br>"
+    let c = 5, d = 6, e = 5;
+    document.write("<br>" + (c==d) + " " + (c==e) + "<br>");
+    const person = {
+      firstName : 'John',
+      lastName : 'Doe',
+      age : 50,
+      eyeColor : 'Blue'
+    };
+    document.write(person.firstName + " is " + person.age + " years old");
+    c = undefined;
+    document.write("<br>" + (c==d) + " " + (c==e) + "<br>");
+  </script>
+
+</body>
+</html>
