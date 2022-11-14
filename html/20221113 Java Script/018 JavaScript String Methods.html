@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript String Methods</title>
+</head>
+<body>
+  <h1>JavaScript String Methods</h1>
+  <p id="demo"></p>
+  <script>
+    let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("demo").innerHTML=text.length;
+  </script>
+  <script>
+    let text2 = "Apple, Banana, Kiwi";
+    let part = text2.slice(7,13);
+    document.getElementById("demo").innerHTML = part; 
+  </script>
+  <p id="demo2"></p>
+  <script>
+    let str = "Apple, Banana, Kiwi";
+    document.getElementById("demo2").innerHTML = str.substring(7,13);
+  </script>
+  <p id="demo3">Please visit Microsoft!</p>
+
+  <script>
+  function myFunction() {
+    let text5 = document.getElementById("demo3").innerHTML;
+    document.getElementById("demo3").innerHTML =
+    text5.replace("Microsoft","W3Schools");
+  }
+  </script>
+  <button onclick="myFunction()">Try it</button>
+</body>
+</html>
