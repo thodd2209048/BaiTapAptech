@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Arrays</title>
+</head>
+<body>
+  <h1>JavaScript Arrays</h1>
+  <script>
+    let car = ['Saab', 'Volvo', 'BMW'];
+    document.writeln(car + "<br>");
+    car[3] = 'Toyota';
+    document.writeln(car);
+    let candy = new Array('Oreo', 'Hai Ha');
+    document.writeln(candy);
+    car[0] = ['Honda'];
+    document.writeln(car+ '<br>');
+    car[1] = candy;
+    document.writeln(car + '<br>');
+    let car2 = {name: 'Audi', color: 'red', speed: 100};
+    car[0] = car2;
+    document.writeln(car + '<br>');
+    document.writeln(car2.name +"<br>");
+    document.writeln(car.length + '<br>');
+    let fruits = ['Apple', 'Mango', 'Orange', 'Lemon'];
+    let text = '<ul>';
+    for (let i = 0; i < fruits.length; i++) {
+      text += '<li>' + fruits[i] + '</li>';
+    }
+    text += '</ul>';
+    document.writeln(text);
+
+    let text2 = '<ul>';
+    fruits.forEach(myFunction);
+    text2 += '</ul>';
+    function myFunction(value) {
+      text2 += '<li>' + value + '</li>';
+    }
+    document.writeln(text2);
+    fruits.push('Kiwi');
+    document.writeln(fruits + '<br>');
+    document.writeln(Array.isArray(car));
+    document.writeln('<br>' + Array.isArray(car2)+ '<br>');
+    document.writeln(car2 instanceof Array);
+
+    </script>
+</body>
+</html>
