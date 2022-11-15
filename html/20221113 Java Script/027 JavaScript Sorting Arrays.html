@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Sorting Arrays</title>
+</head>
+<body>
+  <h1>JavaScript Sorting Arrays</h1>
+  <pre>
+
+    <script>
+      let fruits = ['Apple', 'Orange', 'Kiwi', 'Waterlemon'];
+      fruits.sort();
+      fruits.reverse();
+      document.writeln(fruits);
+      const points = [40, 100, 1, 5, 25, 10];
+    </script>
+  </pre>
+  <button onclick="myFunction()">Random sort</button>
+  <script>
+    function myFunction() {
+      points.sort(function(a, b){return 0.5 - Math.random()});
+      document.getElementById("demo").innerHTML = points;
+    }
+  </script>
+  <p id="demo">40,100,1,5,25,10</p>
+
+  <h2>Fisher Yate Method</h2>
+  <button onclick="myFunction2()">Fisher Yates random</button>
+  <p id="points2"></p>
+  <script>
+    const points2 = [40, 100, 11, 53, 25, 10];
+    document.getElementById('points2').innerHTML=points2;
+  </script>
+
+  <script>
+    function myFunction2() {
+      for(let i = points2.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let k = points2[i];
+        points2[i] = points2[j];
+        points2[j] = k;
+      }
+      document.getElementById('points2').innerHTML=points2;
+    }
+  </script>
+  <h2>Sorting Object Arrays</h2>
+  <p id="demo3"></p>
+  <p id="demo4"></p>
+  <script>
+    const car = [
+      {type: 'Volvo', year: 2016},
+      {type: 'Saab', year: 2001},
+      {type: 'BMW', year: 2010}
+    ];
+    document.getElementById('demo3').innerHTML=
+      car[0].type + ' ' + car[0].year + '<br>' +
+      car[1].type + ' ' + car[1].year + '<br>' +
+      car[2].type + ' ' + car[2].year + '<br>'
+    car.sort(function(a, b){return a.year - b.year});
+    document.getElementById('demo4').innerHTML=
+      car[0].type + ' ' + car[0].year + '<br>' +
+      car[1].type + ' ' + car[1].year + '<br>' +
+      car[2].type + ' ' + car[2].year + '<br>'
+
+  </script>
+</body>
+</html>
