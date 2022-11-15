@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Array Methods</title>
+</head>
+<body>
+  <h1>JavaScript Array Methods</h1>
+  <script>
+    let fruit = ['Banana', 'Orange', 'Apple', 'Mango'];
+    document.writeln(fruit.toString() + '<br>');
+    document.writeln(fruit.join('#') + '<br>');
+    fruit.pop();
+    document.write(fruit  + '<br>');
+    fruit.push('Kiwi');
+    document.write(fruit  + '<br>');
+    fruit.shift();
+    fruit.shift();
+    document.write(fruit + '<br>');
+    document.write(fruit.shift());
+    fruit.unshift('Tomato');
+    document.write(fruit);
+    document.write(fruit.length +'<br>')
+    fruit.splice(1, 0, 'Grape', 'Waterlemon');
+    document.write(fruit);
+
+  </script>
+</body>
+</html>
