@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Array Iteration</title>
+</head>
+<body>
+  <h1>JavaScript Array Iteration</h1>
+  <p id="demo1"></p>
+  <script>
+    const numbers = [45, 4, 9, 16, 25];
+    let txt = '';
+    numbers.forEach(myFunction1);
+    function myFunction1(value) {
+      txt += value + '<br>';
+    }
+    document.getElementById('demo1').innerHTML=txt; 
+  </script>
+  <h2>2. JavaScript Array map()</h2>
+  <p id="demo2"></p>
+  <p id="demo2.1"></p>
+  <p id="demo2_2"></p>
+  <script>
+    const numbers1 = [45, 4, 9, 16, 25];
+    const numbers2 = numbers1.map(myFunction2);
+    function myFunction2(value) {
+      return value*2;
+    }
+    document.getElementById('demo2').innerHTML=numbers2;
+    function myFunction3(value) {
+      return value > 18;
+    }
+    const numbers3 = numbers1.filter(myFunction3);
+    document.getElementById('demo2.1').innerHTML=numbers3;
+
+    function myFunction4(value) {
+      return value < 10;
+    }
+    document.getElementById('demo2_2').innerHTML=numbers1.every(myFunction4);
+
+  </script>
+  <h2>entries</h2>
+  <p id="demo3"></p>
+  <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    const f = fruits.entries();
+
+    for(let x of f) {
+      document.getElementById('demo3').innerHTML += x + '<br>';
+    }
+  </script>
+</body>
+</html>
