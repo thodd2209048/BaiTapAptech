@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Get Date Methods</title>
+</head>
+<body>
+  <h1>JavaScript Get Date Methods</h1>
+  <p id="demo1"></p>
+  <p>getFullYear</p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
+  <p id="demo4"></p>
+  <p id="demo5"></p>
+  <script>
+    const d1 = new Date();
+    document.getElementById('demo1').innerHTML=d1;
+    document.getElementById('demo2').innerHTML=d1.getFullYear();
+    //The getMonth() Method
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    let m = months[d1.getMonth()];
+    document.getElementById('demo3').innerHTML=m;
+    //getDay()
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let day = days[d1.getDay()];
+    document.getElementById('demo4').innerHTML=day;
+    let diff = d1.getTimezoneOffset();
+    document.getElementById('demo5').innerHTML=diff;
+  </script>
+</body>
+</html>
