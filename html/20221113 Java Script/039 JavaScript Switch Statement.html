@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Switch Statement</title>
+  <link rel="icon" href="../favicon/favicon-16x16.png">
+</head>
+<body>
+  <h1>JavaScript Switch Statement</h1>
+  <p id="demo">What is date?</p>
+  <p id="demo1"></p>
+  <input id="date" value="2022-11-16">
+  <button onclick="myFunction()">What day?</button>
+  <script>
+    function myFunction() {
+      let date = new Date(document.getElementById('date').value);
+      let day = date.getDay();
+      switch(date.getDay()) {
+        case 0:
+          day = "Sunday";
+          break;
+        case 1:
+          day = "Monday";
+          break;
+        case 2:
+          day = "Tuesday";
+          break;
+        case 3:
+          day = "Wednesday";
+          break;
+        case 4:
+          day = "Thursday";
+          break;
+        case 5:
+          day = "Friday";
+          break;
+        case  6:
+          day = "Saturday";
+        default: 
+          day = 'can not calculate'
+      }
+      document.getElementById("demo").innerHTML = "Day is " + day;
+    }
+
+  </script>
+</body>
+</html>
