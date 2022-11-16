@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Maps</title>
+  <link rel="icon" href="../favicon/favicon-16x16.png">
+</head>
+<body>
+  <h1>JavaScript Maps</h1>
+  <p id="demo"></p>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+  <script>
+    const fruits = new Map([
+      ["apples", 500],
+      ['banana', 300],
+      ['orange', 200]
+    ]);
+    fruits.set('kiwi', 100);
+    fruits.delete('banana');
+    let x = fruits.has('orange');
+    document.getElementById('demo').innerHTML=x;
+    let text2 ='';
+    fruits.forEach(function(value, key) {
+      text2 += key + ': ' + value + '<br>';
+    });
+    document.getElementById('demo2').innerHTML=text2;
+  </script>
+</body>
+</html>
