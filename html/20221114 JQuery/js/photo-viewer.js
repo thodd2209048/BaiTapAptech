@@ -12,7 +12,7 @@ function crossfade($img) {
 
   $img.css({
     marginLeft: -$img.width()/2,
-    marginTop: -$img.heigh()/2
+    marginTop: -$img.height()/2
   });
 
   $img.stop().fadeTo('slow', 1);
