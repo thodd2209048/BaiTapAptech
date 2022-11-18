@@ -1,8 +1,8 @@
-var request;                                           //Lastest image to be requested     
+var request;                                           //Latest image to be requested     
 var $current;                                           //Image currently being shown
 var cache = {};                                         //cache object
 var $frame = $('#photo-viewer');                        //container for image    
-var $thumbs = $('.thumbs');                             //thubnails
+var $thumbs = $('.thumbs');                             //thumbnails
 
 function crossfade($img) {                              //Function to fade between images
                                                         //pass in new image as parameter
@@ -24,7 +24,7 @@ function crossfade($img) {                              //Function to fade betwe
 $(document).on('click', '.thumb', function(e){          //When a thumb is clicked on
   var $img,                                             //Create local variable called $img
     src = this.href;                                    //Store path to image
-    request = src;                                      //Store lastest image request
+    request = src;                                      //Store latest image request
 
   e.preventDefault();                                   //stop default link behavior
 
@@ -39,7 +39,7 @@ $(document).on('click', '.thumb', function(e){          //When a thumb is clicke
     $img = $('<img/>');                                  //Store empty <img/> element in $img
     cache[src] = {                                      //store this image in cache
       $img: $img,                                       //add the path to the image
-      isLoading: true                                   //set isLoading preperty to fase
+      isLoading: true                                   //set isLoading property to fade
     };
 
     //Next few lines will run when image has loaded but are prepared first
