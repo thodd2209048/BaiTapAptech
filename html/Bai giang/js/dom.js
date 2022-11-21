@@ -16,3 +16,7 @@ document.getElementById('bt1').onclick = () => {
 document.getElementById('bt2').onclick = () => {
     document.getElementById('heading2').innerHTML='Good bye';
 }
+
+/*$('#bt1').onclick = () => {                     //This code can't run because file html didn't call jQuery library
+    document.getElementById('heading1').innerHTML='Hello'
+}*/

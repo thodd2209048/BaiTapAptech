@@ -1,4 +1,4 @@
-var request;                                           //Latest image to be requested     
+var request;                                            //Latest image to be requested     
 var $current;                                           //Image currently being shown
 var cache = {};                                         //cache object
 var $frame = $('#photo-viewer');                        //container for image    
@@ -12,10 +12,10 @@ function crossfade($img) {                              //Function to fade betwe
 
   $img.css({                                            //Set the CSS margin for the image
     marginLeft: -$img.width()/2,                        // Negative margin of half image width
-    marginTop: -$img.height()/2                          // Negative margin of half image height
+    marginTop: -$img.height()/2                         // Negative margin of half image height
   });
 
-  $img.stop().fadeTo('slow', 1);                          //stop animation on new image and fade in
+  $img.stop().fadeTo('slow', 1);                        //stop animation on new image and fade in
 
   $current = $img;                                      //New image becomes current image
 
@@ -36,9 +36,9 @@ $(document).on('click', '.thumb', function(e){          //When a thumb is clicke
       crossfade(cache[src].$img);                       //Call crossfade() function
     }
   } else {                                              //otherwise it is not in cache
-    $img = $('<img/>');                                  //Store empty <img/> element in $img
-    cache[src] = {                                      //store this image in cache
-      $img: $img,                                       //add the path to the image
+    $img = $('<img/>');  //'<img/>' o day la gi?                                //Store empty <img/> element in $img
+    cache[src] = {     //cache[src] la gi                                 //store this image in cache
+      $img: $img,     //$img thu nhat la property tai sao lai giong ten bien                                  //add the path to the image
       isLoading: true                                   //set isLoading property to fade
     };
 
