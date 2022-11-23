@@ -3,7 +3,7 @@ const emailEl = document.querySelector('#email');
 const passwordEl = document.querySelector('#password');
 const confirmPasswordEl = document.querySelector('#confirm-password');
 
-const form = document.querySelector('#signup')
+const form = document.querySelector('#signup');
 
 const checkUsername = () => {
   let valid = false;
@@ -11,14 +11,14 @@ const checkUsername = () => {
   const min = 3,
     max = 25;
 
-  const username = usernameEl.ariaValueMax.trim();
+    const username = usernameEl.value.trim();
 
-  if(!isRequired(username)) {
-    showError(usernameEl, 'Username can not be blank.');
+  if (!isRequired(username)) {
+    showError(usernameEl, 'Username cannot be blank.');
   } else if (!isBetween(username.length, min, max)) {
     showError(usernameEl, `Username must be between ${min} and ${max} characters.`)
   } else {
-    showSucess(usernameEl);
+    showSuccess(usernameEl);
     valid = true;
   }
   return valid;
@@ -32,7 +32,7 @@ const checkEmail = () => {
   if(!isRequired(email)) {
     showError(emailEl, 'Email can not be blank.');
   } else if (!isEmailValid(email)) {
-    showError(emailEL, 'Email is not valid.')
+    showError(emailEl, 'Email is not valid.');
   } else {
     showSuccess(emailEl);
     valid = true;
@@ -49,8 +49,7 @@ const checkPassword = () => {
   if(!isRequired(password)) {
     showError(passwordEl, 'Password cannot be blank.');
   } else if (!isPasswordSecure(password)) {
-    showError(passwordEl, 'Password must has at least 8 characters that include at least 1 lowercase' +
-    'character, 1 uppercase characters, 1 number, and 1 special character in (!@#$%^&*)');
+    showError(passwordEl, 'Password must has at least 8 character that include at least 1 lowercase' + 'character, 1 uppercase character, 1 number, and 1 special character in (!@#$%^&*)');
   } else {
     showSuccess(passwordEl);
     valid = true;
@@ -82,7 +81,7 @@ const isEmailValid = (email) => {
 };
 
 const isPasswordSecure = (password) => {
-  const re = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
+  const re = new RegExp ("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#\$%\^&\*])(?=.{8,})");
   return re.test(password);
 };
 
@@ -93,8 +92,55 @@ const showError = (input, message) => {
   const formField = input.parentElement;
 
   formField.classList.remove('success');
-  formField.classList.add('success');
+  formField.classList.add('error');
 
   const error = formField.querySelector('small');
-  error.textContent ='';
+  error.textContent = message;
 }
+const showSuccess = (input) => {
+  const formField = input.parentElement;
+  formField.classList.remove('error');
+  formField.classList.add('success');
+  const error = formField.querySelector('small');
+  error.textContent = '';
+}
+form.addEventListener('submit',function (e) {
+  e.preventDefault();
+  let isUsernameValid = checkUsername(),
+      isEmailValid = checkEmail(),
+      isPasswordValid = checkPassword(),
+      isConfirmPasswordValid = checkConfirmPassword();
+  let isFormValid = isUsernameValid &&
+      isEmailValid &&
+      isPasswordValid &&
+      isConfirmPasswordValid;
+  if (isFormValid) {
+  }
+});
+const debounce = (fn, delay = 1) => {
+  let timeoutId;
+  return (...args) => {
+      if (timeoutId) {
+          clearTimeout(timeoutId);
+      }
+      timeoutId = setTimeout(() => {
+          fn.apply(null, args)
+      }, delay);
+  };
+};
+form.addEventListener('input', debounce(function (e) {
+  switch (e.target.id) {
+      case 'username':
+          checkUsername();
+          break;
+      case 'email':
+          checkEmail();
+          break;
+      case 'password':
+          checkPassword();
+          break;
+      case 'confirm-password':
+          checkConfirmPassword();
+          break;
+  }
+}));
