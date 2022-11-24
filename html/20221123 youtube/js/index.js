@@ -39,9 +39,11 @@ window.onclick = function(event) {
 }
 
 function loadVideo(keyword) {
+  apiKey = 'API HERE';
   var YOUTUBE_API = "https://content.googleapis.com/youtube/v3/search?q=" 
   + keyword 
-  + "&type=video&maxResults=9&part=snippet&key=AIzaSyClFKhmecJJcAmCwldCkBz3D5KEQM0dcSM";
+  + "&type=video&maxResults=9&part=snippet&key="
+  + apiKey + "";
   var xhr = new XMLHttpRequest();
   xhr.open("GET", YOUTUBE_API, true);
   xhr.onreadystatechange = function() {
