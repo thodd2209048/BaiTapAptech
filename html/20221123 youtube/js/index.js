@@ -15,7 +15,14 @@ var span = document.getElementsByClassName("close") [0];
 var videoFrame = document.getElementById("video-frame");
 
 /*tao tag
-var tag = document.getElementsByClassName("button-value");
+tach duoc ra button nao dang selected. Sau do, chay keyword theo button dang selected
+var allTag = document.getElementsByClassName("button-value");
+for(let i = 0; i < allTag.length; i++) {
+  let tag = allTag[i];
+  tag.addEventListener("click", function() {
+    
+  })
+}
 tag.onclick = function() {
   let tagName = tag.dataset.name;
   loadVideo("tagName");
