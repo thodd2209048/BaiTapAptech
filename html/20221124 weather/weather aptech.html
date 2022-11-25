@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1fb8bb996b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="weather aptech.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+
+  <title>Weather Hanoi Aptech</title>
+</head>
+<body>
+
+  <div class="card">
+    <div class="time-space">
+      <div class="space">Hanoi</div>
+      <div class="hour">21:00</div>
+      <div class="time" id="time">Friday, November 25 2022</div>
+    </div>
+    <div class="temp">
+      <p>30°C</p>
+    </div>
+    <img class="icon" src="https://developer.accuweather.com/sites/default/files/01-s.png" >
+    <div class="description">Cloud</div>
+    <div class="sub-info">
+      <div class="wind-speed sub">
+        <p class="parameter">Wind</p>
+        <p class="value" id="wind">9km/h</p>
+      </div>
+      <div class="wind-gust sub">
+        <p class="parameter">WindGust</p>
+        <p class="value" id="windGust">14km/h</p>
+      </div>
+      <div class="pressure sub">
+        <p class="parameter">Pressure</p>
+        <p class="value" id="pressure">1015mb</p>
+      </div>
+      <div class="uv sub">
+        <p class="parameter">UV Index</p>
+        <p class="value" id="uv">0</p>
+      </div>
+    </div>
+  </div>
+<script src="weatherAptech.js" defer></script>
+
+</body>
+</html>

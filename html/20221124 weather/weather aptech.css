@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Da 2', sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(119, 106, 106);
+  background-image: url("https://source.unsplash.com/1600x900/?hanoi");
+  background-position: center;
+}
+
+.card {  
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(74, 74, 74, 0.674);
+  padding: 2em;
+  margin: 1rem;
+  color: #152e4c
+}
+
+.space {
+  height: 1.3em;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.hour {
+  font-size: 1.5em;
+  height: 1.2em;
+}
+.time {
+  position: relative;
+  font-size: 1.15em;
+}
+.main-info {
+  border: 1px solid red;
+}
+.temp {
+  font-size: 5em;
+  text-align: center;
+  justify-content: center;
+}
+
+.description {
+  font-size: 1.7em;
+  margin-bottom: 1rem;
+}
+
+.icon{
+  height: 5rem;
+}
+
+.sub-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sub-info .sub{
+  margin: 0 6px;
+  width: 44%;
+  min-width: 200px;
+  border-bottom: 1px solid grey;
+  padding: 0 5px;
+  font-size: 1.2em;
+}
+.parameter {
+  float: left;
+}
+
+.value {
+  float: right;
+}
