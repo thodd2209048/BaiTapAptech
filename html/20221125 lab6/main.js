@@ -20,11 +20,12 @@ let username = id("username"),
 
 form.addEventListener("submit", (e) => {  //Nếu chỉ có 1 tag <form> thì có thể sử dụng tên tag để thay cho thẻ đó
   e.preventDefault();
+  console.log("listen");
  /*form submit la dong goi ca form gui di nen se xay ra ca 3 su kiện
  Đây gọi là callback() trong js*/
  engine(username,0,"Username cannot be blank!");
- engine(email,1,"Username cannot be blank!");
- engine(password,2,"Username cannot be blank!");
+ engine(email,1,"Email cannot be blank!");
+ engine(password,2,"Password cannot be blank!");
 
 
 });
