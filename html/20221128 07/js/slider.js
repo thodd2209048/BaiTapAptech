@@ -14,7 +14,7 @@ $('.slider').each(function(){
           return;
       }
       buttonArray[currentIndex].removeClass('active');
-      buttonArray[newIndex].addClass('active');
+      buttonArray[newIndex].addClass('active'); 
 
       if( newIndex > currentIndex) {
           slideLeft = '100%';
@@ -34,7 +34,7 @@ $('.slider').each(function(){
               display: 'none'
           });
           $group.css({
-              left: 0
+            //   left: 0
           });
           currentIndex = newIndex;
       });
@@ -60,4 +60,5 @@ $('.slider').each(function(){
       buttonArray.push($button);
   });
   advance();
+  console.log(currentIndex);
 });
