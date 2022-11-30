@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#hanoi {
+  float: right;
+  width: 300px;
+}
+.main {
+  margin: 10% auto;
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 600px;
+  padding: 20px;
+}
+
+#time {
+  color: rgb(237,110,75);
+}
+
+#locationSection {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+#tempSection {
+  margin-top: 15px;
+  font-size: 3em;
+}
+
+#tempSection img {
+  float: left;
+  height: 1em;
+}
+
+#temp {
+  clear: left;
+}
+
+#titleSection {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+#title {
+  text-transform: capitalize;
+}
