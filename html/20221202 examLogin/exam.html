@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/exam.css">
+  <script src="https://kit.fontawesome.com/1fb8bb996b.js" crossorigin="anonymous"></script>
+  <title>Sign Up</title>
+</head>
+<body>
+  <div id="main">
+    <div id="createAccount">Create Account</div>
+    <div id="title">Get started with your free account</div>
+    <div id="loginTwitter">
+      <button id="twitterbtn" class="buttonLogin">
+        <i class="fa-brands fa-twitter"></i>
+        Login via Twitter</button>
+    </div>
+    <div id="loginFacebook">
+      <button id="facebookbtn" class="buttonLogin">
+        <i class="fa-brands fa-facebook-f"></i>
+        Login via Facebook</button>
+    </div>
+    <div id="or">
+      <div>Or</div>
+    </div>
+    <form id="form" action="">
+      <div class="container">
+        <div class="smallImg">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <input type="text" id="fullname" placeholder="Fullname">
+        <div class="error"></div>
+      </div>
+      
+      <div class="container">
+        <div class="smallImg">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <input type="text" id="email" placeholder="Email address">
+        <div class="error"></div>
+      </div>
+
+      <div class="container" id="phoneContainer">
+        <div class="smallImg">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <select name="" id="code">
+          <option value="84">+84</option>
+          <option value="87">+87</option>
+        </select>
+        <input type="number" id="phone">
+        <div class="error"></div>
+      </div>
+
+      <div class="container">
+        <div class="smallImg">
+          <i class="fa-solid fa-building"></i>
+        </div>
+        <select name="" id="job">
+          <option value="">Select job type</option>
+          <option value="designer">Designer</option>
+          <option value="manager">Manager</option>
+          <option value="accounting">Accounting</option>
+        </select>
+      </div>
+
+      <div class="container">
+        <div class="smallImg">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <input type="password" id="password" placeholder="Create password">
+        <div class="error"></div>
+      </div>
+
+      <div class="container">
+        <div class="smallImg">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <input type="password" id="confirmPassword" placeholder="Repeat password">
+        <div class="error"></div>
+      </div>
+      <button id="createbtn" type="submit">Create Account</button>
+    </form>
+    <div id="login">
+      <p>Have an account?</p>
+      <a href="#">Log in</a>
+    </div>
+  </div>
+</body>
+<script src="js/exam.js"></script>
+</html>
