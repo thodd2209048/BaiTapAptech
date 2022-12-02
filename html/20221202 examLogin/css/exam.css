@@ -106,6 +106,7 @@ body {
   border: none;
   outline: none;
   border-left: 1px solid grey;
+  box-shadow: 3px 3px rgb(162, 162, 162);
 }
 
 .container i {
