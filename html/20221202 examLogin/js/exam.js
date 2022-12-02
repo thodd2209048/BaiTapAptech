@@ -6,7 +6,8 @@ let fullname = id("fullname"),
   password = id("password"),
   email = id("email"),
   form = id("form"),
-  phone = id("phone");
+  phone = id("phone"),
+  confirmPassword = id("confirmPassword");
 
 let errorMsg = classes("error");
 
@@ -26,4 +27,12 @@ form.addEventListener("submit", (e) => {
   checkBlank(email, 1, "Email can not be blank!");
   checkBlank(phone, 2, "Phone can not be blank!");
   checkBlank(password, 3, "Password can not be blank!");
+  checkPassword();
 });
+
+let checkPassword = () => {
+  if(confirmPassword.value !== password.value) {
+    errorMsg[4].innerHTML = "Those passwords didn't match. Try again.";
+
+  }
+}
