@@ -16,7 +16,7 @@ body {
   position: relative;
   width: 400px;
   margin: 50px auto;
-  padding: 0 5%;
+  padding: 0 5px;
 }
 
 .error{
@@ -117,12 +117,12 @@ body {
 
 #phoneContainer select {
   float: left;
-  width: 30%;
+  width: 25%;
   border-left: 1px solid grey;
 }
 
 #phoneContainer #phone{
-  width: calc(70% - 30px);
+  width: calc(75% - 30px);
 }
 
 
@@ -137,6 +137,11 @@ body {
 .container select:focus{
   border: none;
   outline: none;
+  border-left: 1px solid grey;
+}
+
+#job {
+  border-radius: 0 3px 3px 0;
 }
 
 #createbtn {
