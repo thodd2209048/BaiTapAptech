@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js" integrity="sha512-7oYXeK0OxTFxndh0erL8FsjGvrl2VMDor6fVqzlLGfwOQQqTbYsGPv4ZZ15QHfSk80doyaM0ZJdvkyDcVO7KFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Document</title>
+</head>
+<body>
+  <h2>AngularJS MVC Example</h2>
+  <!-- Declare Angular -->
+  <div ng-app="testApp" ng-controller="appController">
+    Enter first name:
+    <input type="text" ng-model="student.firstName">
+    <br><br>
+    Enter last name:
+    <input type="text" ng-model="student.lastName">
+    <br><br>
+    <!-- View -->
+    Entered Value: {{ student.fullName() }}
+
+  </div>
+
+  <script>
+    var mainApp = angular.module("testApp", []);
+    //
+    mainApp.controller('appController', function($scope){
+      $scope.student = {
+        firstName: "Nguyen",
+        lastName: "Phu Trong",
+        fullName: function() {
+          var studentObject = $scope.student;
+          return studentObject.firstName + " " + studentObject.lastName;
+        }
+      };
+    }); 
+  </script>
+</body>
+</html>
