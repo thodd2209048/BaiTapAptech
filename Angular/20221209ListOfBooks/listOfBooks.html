@@ -27,7 +27,7 @@
       </li>
     </ul>
     <select class="form-control pull-right" ng-model="main.order"
-    ng-option="order as order.title for order in main.orders"></select>
+    ng-options="order as order.title for order in main.orders"></select>
     <div class="clearfix"></div>
     <h3>Add a new Book</h3>
     <form name="main.addForm" class="form" ng-submit="main.addShow()">
