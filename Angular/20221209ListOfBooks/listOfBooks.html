@@ -20,14 +20,14 @@
     </div>
     <h3>A list of books</h3>
     <ul class="list-group">
-      <li class="list-group-item" ng-repeat="show in main.shows|filter:main.searchInput|
+      <li class="list-group-item" ng-repeat="x in main.shows|filter:main.searchInput|
        orderBy:main.order.key:main.order.reverse">
-      <span class="glyphicon glyphicon-star" ng-if="show.favorite"></span>
-      {{show.title}} <span class="badge">{{show.author}}</span>
+      <span class="glyphicon glyphicon-star" ng-if="x.favorite"></span>
+      {{x.title}} <span class="badge">{{x.author}}</span>
       </li>
     </ul>
     <select class="form-control pull-right" ng-model="main.order"
-    ng-options="order as order.title for order in main.orders"></select>
+    ng-options="y as y.title for y in main.orders"></select>
     <div class="clearfix"></div>
     <h3>Add a new Book</h3>
     <form name="main.addForm" class="form" ng-submit="main.addShow()">

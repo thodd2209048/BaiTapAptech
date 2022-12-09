@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js" integrity="sha512-7oYXeK0OxTFxndh0erL8FsjGvrl2VMDor6fVqzlLGfwOQQqTbYsGPv4ZZ15QHfSk80doyaM0ZJdvkyDcVO7KFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>CRUD employee data</title>
+</head>
+<body ng-controller="myCtrl">
+    <input type="text" ng-model="searchText" placeholder="search">
+    <table>
+        <thead>
+            <tr>
+                <th><a href="#" ng-click="sortField='name' ; reverse=!reverse">Name</a></th>
+                <th><a href="#" ng-click="sortField='balance' ; reverse=!reverse">Balance</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="user in users | orderBy:sortField:reverse | filter: searchText">
+            <td>{{ user.name }}</td>
+            <td>{{ user.balance | currency }}</td>
+            <td><a href="#" ng-click="removeUser($index)">Delete</a></td>
+            <td><a href="#" ng-click="editUser($index)">Edit</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <input type="text" ng-model="current.name" value="">
+        <input type="text" ng-model="current.balance" value="">
+
+    </div>
+    <div>
+        <button type="button" ng-click="saveUser(current)"> Save User </button>
+        <button type="button" ng-click="addUser(current)"> Add User </button>
+    </div>
+</body>
+<script>
+  var app = angular.module('myApp',[]);
+  app.controller('myCtrl', function($scope) {
+    $scope.users = [];
+    $scope.current = {};
+    let i;
+    $scope.addUser = function() {
+        if($scope.current != "") {
+            $scope.users.push($scope.current);
+            $scope.current = {};
+        }
+    };
+    $scope.removeUser = function(index) {
+        $scope.users.splice(index,1);
+    };
+
+    $scope.editUser = function(index) {
+        $scope.current = $scope.users[index];
+        i = index;
+    };
+    $scope.saveUser = function(i) {
+        $scope.users[i] = $scope.current
+        $scope.current = {};
+    };
+  });
+</script>
+</html>

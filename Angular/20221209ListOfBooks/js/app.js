@@ -40,7 +40,7 @@ angular.module("app").controller("MainController", function() {
     },
     {
       id: 2,
-      title: "Author Ascending",
+      title: "Author Decending",
       key: "author",
       reverse: true
     },
@@ -52,7 +52,7 @@ angular.module("app").controller("MainController", function() {
     },
     {
       id: 4,
-      title: "Title Ascending",
+      title: "Title Decending",
       key: "title",
       reverse: true
     },
