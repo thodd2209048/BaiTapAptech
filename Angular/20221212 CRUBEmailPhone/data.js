@@ -42,4 +42,8 @@ app.controller('ContactController', function($scope) {
       $scope.reverse = "";
     } else {$scope.reverse = 'reverse'}
   }
+
+  $scope.clearSearch = function() {
+    $scope.searchInput = "";
+  }
 });
