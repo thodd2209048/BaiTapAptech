@@ -33,8 +33,7 @@
         youtubeFactory = {};
 
     youtubeFactory.getVideos = function() {
-      //return $http.get(apiURL);
-      return $http.get("youtube.json")
+      return $http.get(apiURL);
     };
 
     return youtubeFactory;
