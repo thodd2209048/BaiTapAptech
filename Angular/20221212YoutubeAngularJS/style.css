@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(205, 205, 205);
+}
+
+.section {
+  margin: 20px auto;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+.container {
+  text-align: center;
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.youtube-thumbnail {
+  padding: 10px;
+  text-align: center;
+  overflow:visible;
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}

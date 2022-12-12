@@ -1,0 +1,1712 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "TY8SEv2jFzdWnNnZZkwJHFM6oSc",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "VN",
+  "pageInfo": {
+    "totalResults": 164,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jS60akeDLE5Dlt8rGa4pg6i-dGo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lpXFSRy7hAA"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:35Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - một triệu like (dongvui harmony)",
+        "description": "một triệu like (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony #Den ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lpXFSRy7hAA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lpXFSRy7hAA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lpXFSRy7hAA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vlZE4VFcqKzxmfOH5UUKBViqYwI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pMljuoYfqx8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:35Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mưa Trên Những Mái Tôn (dongvui harmony)",
+        "description": "Mưa Trên Những Mái Tôn (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pMljuoYfqx8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pMljuoYfqx8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pMljuoYfqx8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hHKbQ9jEe6UNyI-k8p5nyqFklGE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Hr-0lFJouD4"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:08Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mang Tiền Về Cho Mẹ (dongvui harmony)",
+        "description": "Mang Tiền Về Cho Mẹ (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hr-0lFJouD4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hr-0lFJouD4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hr-0lFJouD4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0Rk0dQIqGt0hN558cqHyDRQh8lw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SCiLPa1A2FY"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:18Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Anh Đếch Cần Gì Nhiều Ngoài Em (dongvui harmony)",
+        "description": "Anh Đếch Cần Gì Nhiều Ngoài Em (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SCiLPa1A2FY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SCiLPa1A2FY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SCiLPa1A2FY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oMdzcBtGOr0itXnIVueFsEsB1-A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tco4-mAZDLw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:39Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Ai muốn nghe không (dongvui harmony)",
+        "description": "dongvui harmony - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony #Den #Denvau Project ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tco4-mAZDLw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tco4-mAZDLw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tco4-mAZDLw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FlVyYzjZ9xMalOV-rlXuBxErNVU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rLL4J_nZQJU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:37Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Bài Này Chill Phết (dongvui harmony)",
+        "description": "Bài Này Chill Phết (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony #Den ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rLL4J_nZQJU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rLL4J_nZQJU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rLL4J_nZQJU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rp0HFmRfnGiPFQKisHiF0QS-Y1Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bGkBv8BSjdM"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:19Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mơ (dongvui harmony)",
+        "description": "Mơ (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony #Den #Denvau Project ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bGkBv8BSjdM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bGkBv8BSjdM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bGkBv8BSjdM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tL1ASIpLWkfh1ojntnBcguPKDZs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l34ppvvxufU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T13:00:20Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Trốn Tìm (dongvui harmony)",
+        "description": "Trốn Tìm (dongvui harmony) - Đen Download/Stream: https://Denvau.lnk.to/dongvuiharmony #dongvuiharmony #Den #Denvau ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l34ppvvxufU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l34ppvvxufU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l34ppvvxufU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T13:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f3pIK-N_J0ZaTtSznAi3vdMvaWY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s2iHM716Zaw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-09T13:00:10Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - dongvui harmony (Full)",
+        "description": "dongvui harmony - Đen Download/Stream \"dongvuiharmony\": https://Denvau.lnk.to/dongvuiharmony Tracklist: 00:00 Anh Đếch ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s2iHM716Zaw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s2iHM716Zaw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s2iHM716Zaw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-09T13:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MNucE2ppTNqxbyrTB9UmeL0vVnc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MNcm6EiNRsc"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-07T13:00:20Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - dongvui harmony (teaser)",
+        "description": "Một món quà đặc biệt ấp ủ dành tặng khán giả thân yêu. Hẹn mọi người vào 20h - 09/11/2022 nhéeee Pre-save ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MNcm6EiNRsc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MNcm6EiNRsc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MNcm6EiNRsc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-07T13:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HKxWMGcSJGW2m61bpXKHoiFP4PM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sswhSwsTBVQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-20T12:30:19Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn viên tồi ft. Thành Bùi, Cadillac (Behind The Scenes #Shorts 3)",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sswhSwsTBVQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sswhSwsTBVQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sswhSwsTBVQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-20T12:30:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C1ZLvtTOi6szb9tbQUZUAcCQIMs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Mwm1UhEhIu4"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-19T12:45:01Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn viên tồi ft. Thành Bùi, Cadillac (Behind The Scenes #Shorts 2)",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Mwm1UhEhIu4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Mwm1UhEhIu4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Mwm1UhEhIu4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-19T12:45:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "njU3LUvbcX256BvoNnjsHlHNQ0g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5f1ojYtIcPw"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-17T12:30:02Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn viên tồi ft. Thành Bùi, Cadillac (Behind The Scenes)",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5f1ojYtIcPw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5f1ojYtIcPw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5f1ojYtIcPw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-17T12:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LhXPVoeoTHyiTxhlQ7tvFKixDyA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DqgaZOoYvSo"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-13T12:30:04Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn Viên Tồi (Behind The Scenes)",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DqgaZOoYvSo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DqgaZOoYvSo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DqgaZOoYvSo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-13T12:30:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M25gycWk3YB3bZs_FT9Q6jKmMbI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qfROyvFcFGU"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-26T12:30:30Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Như một diễn viên tồi",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qfROyvFcFGU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qfROyvFcFGU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qfROyvFcFGU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-26T12:30:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qDSZFgERMEeY0BOrTp0-GQEuSvo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5zcNG8nO69M"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-18T02:00:01Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Như một diễn viên tồi",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5zcNG8nO69M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5zcNG8nO69M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5zcNG8nO69M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-18T02:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZCEG0RyM-wQ9haR5a6GWJADKiWA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2RKFrwE_1mE"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-17T12:30:40Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Lúc em nhìn anh anh chợt rơi vào trầm tư. Anh đâu có muốn mình chần chừ",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2RKFrwE_1mE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2RKFrwE_1mE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2RKFrwE_1mE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-17T12:30:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HdhHzHt9mEPimkxvUzAPlD2wVQw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5eA6MmYZVbg"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-16T12:00:05Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Diễn viên tồi - Có một vài câu hỏi làm anh cứng họng. Có những gáo nước lạnh làm anh tỉnh mộng",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5eA6MmYZVbg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5eA6MmYZVbg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5eA6MmYZVbg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-16T12:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2bT6fZB2pndCZUpwVNdRDHFHKB0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x_qg38Nch6I"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-16T05:04:22Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Và anh đã mong là khi anh ra về, (có người nhìn theo bóng lưng)",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x_qg38Nch6I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x_qg38Nch6I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x_qg38Nch6I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-16T05:04:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MRAOQRXdheFipzfKZNT4Xi_owdQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vMkHv8mMSCs"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-15T03:33:07Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Diễn viên tồi - Cứ tiếp tục Play xin đừng Pause",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT #Shorts #DienVienToi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vMkHv8mMSCs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vMkHv8mMSCs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vMkHv8mMSCs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-15T03:33:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pW_Ip2p4qnQTcm7Vhr19GALariQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7ICKkagL3xA"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-12T13:00:11Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn viên tồi ft. Thành Bùi, Cadillac (M/V)",
+        "description": "Diễn viên tồi (A Lousy Actor) - Đen ft. Thành Bùi, Cadillac Download/stream: https://Denvau.lnk.to/DVT ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7ICKkagL3xA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7ICKkagL3xA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7ICKkagL3xA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-12T13:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "S1zSVsarobzK6pgOq0jxxRV10ew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BclcuwttkIQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-10T04:42:24Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn viên tồi (Teaser)",
+        "description": "Diễn viên tồi - Đen (Teaser) Pre-save: https://Denvau.bfan.link/dien-vien-toi Anh chị em ơiii, Đen có một bài nhạc sắp ra mắt.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BclcuwttkIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BclcuwttkIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BclcuwttkIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-10T04:42:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UKXqSVbIRDZ5DByOLWBdhGfxH1Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H_ZqUkjh_lY"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-10T04:00:12Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Diễn viên tồi (Teaser)",
+        "description": "Diễn viên tồi - Đen (Teaser) Pre-save: https://Denvau.bfan.link/dien-vien-toi Anh chị em ơiii, Đen có một bài nhạc mới sắp ra mắt.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H_ZqUkjh_lY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H_ZqUkjh_lY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H_ZqUkjh_lY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-10T04:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7pDjlPZoeFOOxk_oYZuqVMjasYE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JxBnLmCOEJ8"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-11T13:00:12Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Ai muốn nghe không (M/V)",
+        "description": "Đen - Ai muốn nghe không (Who wants to know?) Download/Stream: https://denvau.lnk.to/AMNK Đạo diễn: Lâm Tấn Huy Đạo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JxBnLmCOEJ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JxBnLmCOEJ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JxBnLmCOEJ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-11T13:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_GF_Ycygx9lfdoae7ZXq03V7mXs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "K3OnCIII48k"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T06:00:05Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen có một bài hát, có ai muốn nghe không?",
+        "description": "Ai muốn nghe không - Đen Download/Stream: https://denvau.lnk.to/AMNK #AMNK #Den #DenVau follow Đen: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K3OnCIII48k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K3OnCIII48k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K3OnCIII48k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T06:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nxUKTWT0SoTzQBA1-_pQEhQaIKQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m-7YVLOgvag"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-09T13:00:11Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Đi Trong Mùa Hè ft. Nhạc sĩ Trần Tiến (M/V)",
+        "description": "Đi Trong Mùa Hè - Đen & Nhạc sĩ Trần Tiến Download/Stream: https://Denvau.lnk.to/DTMH Thể hiện: Đen - Nhạc sĩ Trần Tiến ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m-7YVLOgvag/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m-7YVLOgvag/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m-7YVLOgvag/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-09T13:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rjHPcO_uvxuRKQjJr_G4gPGi2wU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6ouBpPoLUNA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-07T13:00:02Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Đi Trong Mùa Hè ft. Nhạc sĩ Trần Tiến (Teaser)",
+        "description": "Đi Trong Mùa Hè - Đen & Nhạc sĩ Trần Tiến 20:00 - 09.05.2022 Cả nhà thân mến ơiii, Đen có một bài hát mới sắp sửa giới thiệu ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6ouBpPoLUNA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6ouBpPoLUNA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6ouBpPoLUNA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-07T13:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZV2pdiaZMme98mxDWYCNoOTBxTg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UVbv-PJXm14"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-29T13:00:14Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mang Tiền Về Cho Mẹ ft. Nguyên Thảo (M/V)",
+        "description": "Mang Tiền Về Cho Mẹ Nghe/tải tại: https://Denvau.lnk.to/MTVCM Thể hiện: Đen, Nguyên Thảo Sáng tác: denvau Đạo diễn: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UVbv-PJXm14/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UVbv-PJXm14/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UVbv-PJXm14/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-29T13:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OgweWqhhjVHgw6g-XsUE13E9enc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uGOtxJhRG1g"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-28T12:00:34Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mang Tiền Về Cho Mẹ ft. Nguyên Thảo (Teaser)",
+        "description": "Mang Tiền Về Cho Mẹ - Đen & Nguyên Thảo Hẹn cả nhà lúc 20 giờ ngày 29/12 để đón xem sản phẩm mới của Đen và Nguyên ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uGOtxJhRG1g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uGOtxJhRG1g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uGOtxJhRG1g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-28T12:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r5CfFz0i6KRjOIw-49AAggR45_A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PaGx9eWElLI"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:09Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mơ (Live at Show của Đen 2019)",
+        "description": "Mơ - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen Produced by River ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PaGx9eWElLI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PaGx9eWElLI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PaGx9eWElLI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rXGir8OXns0NFVOQsaPwRSo9lek",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C-1P1mfskCI"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:04Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Đố em biết anh đang nghĩ gì (Live at Show của Đen 2019)",
+        "description": "Đố em biết anh đang nghĩ gì - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C-1P1mfskCI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C-1P1mfskCI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C-1P1mfskCI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rWe3RNwbD7rm6-X6m9ntksryPfw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mpaxHOoAb9Y"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:32Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Đi Theo Bóng Mặt Trời (Live at Show của Đen 2019)",
+        "description": "Đi Theo Bóng Mặt Trời - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mpaxHOoAb9Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mpaxHOoAb9Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mpaxHOoAb9Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LOD3igwJOGdS47CQql3U_O93I4g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wYyteSWn9Cc"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:33Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Nhiều Năm Nữa (Live at Show của Đen 2019)",
+        "description": "Nhiều Năm Nữa - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wYyteSWn9Cc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wYyteSWn9Cc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wYyteSWn9Cc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5aUABuGLeWh7qKsFpFoq2Cs8z-E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YGFDuNbWYuw"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:12Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Cảm Ơn (Live at Show của Đen 2019)",
+        "description": "Cảm Ơn - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen Produced by ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YGFDuNbWYuw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YGFDuNbWYuw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YGFDuNbWYuw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C-jeidO40weGsjZknPlUv1ZxF7k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YCVWNgal-mU"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:13Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Ta Cứ Đi Cùng Nhau ft. Linh Cáo (Live at Show của Đen 2019)",
+        "description": "Đen - Ta Cứ Đi Cùng Nhau ft. Linh Cáo (Live at Show của Đen 2019) Download/Stream “Show của Đen”: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YCVWNgal-mU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YCVWNgal-mU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YCVWNgal-mU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5H20QWqykyLJ-B38eK6dkt878T4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QOOWzrBYn3k"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:18Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Mười Năm ft. Ngọc Linh (Live at Show của Đen 2019)",
+        "description": "Mười Năm - Đen ft. Ngọc Linh (Live at Show của Đen 2019) Download/Stream “Show của Đen”: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QOOWzrBYn3k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QOOWzrBYn3k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QOOWzrBYn3k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kBPkt0Dq4aiobustQZ2Pr_hk1dU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MWIitxlIBQU"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:18Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Anh Đếch Cần Gì Nhiều Ngoài Em (Live at Show của Đen 2019)",
+        "description": "Anh Đếch Cần Gì Nhiều Ngoài Em (Live at Show của Đen 2019) Download/Stream “Show của Đen”: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MWIitxlIBQU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MWIitxlIBQU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MWIitxlIBQU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GxEawf5hVhXI6hetwg5vtG71r_Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2_M4FiqwT00"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:01Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen x Ngọt - Cho Tôi Lang Thang (Live at Show của Đen)",
+        "description": "Cho Tôi Lang Thang - Đen x Ngọt (Live at Show của Đen) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2_M4FiqwT00/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2_M4FiqwT00/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2_M4FiqwT00/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vO9gaMpQryEXdSBt_e_vqEoaCYE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GvF_S-YfwKU"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:16Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Lộn Xộn II (Live at Show của Đen 2019)",
+        "description": "Lộn Xộn II - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen Produced ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GvF_S-YfwKU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GvF_S-YfwKU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GvF_S-YfwKU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DaS6jIneGuNfhNRPbo5fTsO03d8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nWAB23dUw2o"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:19Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Bài Này Chill Phết (Live at Show của Đen 2019)",
+        "description": "Bài Này Chill Phết Đen - Đen (Live at Show của Đen) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nWAB23dUw2o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nWAB23dUw2o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nWAB23dUw2o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J2OBDN14H7IAAz3kbDRbkBoWs1c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sL6sko_5P_k"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:32Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Trời Ơi Con Chưa Muốn Chết (Live at Show của Đen 2019)",
+        "description": "Trời Ơi Con Chưa Muốn Chết - Đen (Live at Show của Đen 2019) Download/Stream “Show của Đen”: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sL6sko_5P_k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sL6sko_5P_k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sL6sko_5P_k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5XMrf3QR7aYdmDenwU2pwJz8X_g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "54szhZbA3XE"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:05Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Đưa Nhau Đi Trốn ft. Linh Cáo (Live at Show của Đen)",
+        "description": "Đưa Nhau Đi Trốn - Đen ft. Linh Cáo (Live at Show của Đen 2019) Download/Stream “Show của Đen”: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/54szhZbA3XE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/54szhZbA3XE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/54szhZbA3XE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "knzVRnBDj2g7o5PY2I76sjr_xtk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LkDyAH6pwp8"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T13:00:17Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - hai triệu năm ft. Biên (Live at Show của Đen 2019)",
+        "description": "hai triệu năm - Đen ft. Biên (Live at Show của Đen 2019) Download/Stream “Show của Đen”: https://Denvau.lnk.to/ShowcuaDen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LkDyAH6pwp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LkDyAH6pwp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LkDyAH6pwp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T13:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eniA3RWhSYHqoBtyAcfaWe8HASY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1rgGwx7Qtjc"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-30T17:00:11Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Liveshow: Show của Đen 2019 (Fullshow)",
+        "description": "Show của Đen (2019) Download/Stream \"Show của Đen\": https://Denvau.lnk.to/ShowcuaDen Liveshow “Show của Đen” diễn ra ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1rgGwx7Qtjc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1rgGwx7Qtjc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1rgGwx7Qtjc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-30T17:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1XQ33Hj48A6VltVHnOut2YT77g8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u9Tt815ecgI"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-24T04:00:32Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Recap: Show của Đen 2019",
+        "description": "Recap: Show của Đen Hẹn gặp mọi người vào 00:00 - 01/10/2021 trên Youtube của Đen và Netflix nhé. #ShowcuaDen #Đen ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u9Tt815ecgI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u9Tt815ecgI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u9Tt815ecgI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-24T04:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DPKVKQna8AsX53OTiRWDiSjxowg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AsDk5ZImCBA"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-20T13:00:06Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Show của Đen (Trailer)",
+        "description": "Các bác uiii, 00:00 từ ngày 1/10/2021, “Show của Đen” chính thức được trình chiếu trên Netflix và kênh Youtube Đen Vâu rồi này.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AsDk5ZImCBA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AsDk5ZImCBA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AsDk5ZImCBA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-20T13:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9UOu0S7fmxKCceZFqLANq7s8ybI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZoUC2JXzdE4"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-24T15:00:26Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "MTV band, Đen - Quá trình thực hiện Trốn Tìm",
+        "description": "\"Quá trình thực hiện Trốn Tìm\" - MTV band, Đen Mình gửi các bạn xem những cảnh hậu trường của Trốn Tìm. Mọi người rảnh coi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZoUC2JXzdE4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZoUC2JXzdE4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZoUC2JXzdE4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-24T15:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DqUu98lLKNBWVnNSdnZJnfZCy-Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ws-QlpSltr8"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-13T13:00:16Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Trốn Tìm ft. MTV band (M/V)",
+        "description": "Trốn Tìm (Hide and Seek) Download/Stream: https://Denvau.lnk.to/TronTim Performed by MTV band and Đen Director: Ong ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ws-QlpSltr8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ws-QlpSltr8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ws-QlpSltr8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-13T13:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YufSUKnyGM8lb9YFoDEzlITXgLQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tvKaSP2bMkM"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-11T04:11:08Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen - Trốn Tìm ft. ... (Teaser)",
+        "description": "Trốn Tìm (Hide and Seek) \"Download/Stream \"Trốn Tìm\": https://Denvau.lnk.to/TronTim Trò chơi từ thuở ấy tưởng đã quên, thực ra ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tvKaSP2bMkM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tvKaSP2bMkM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tvKaSP2bMkM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-11T04:11:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y2WbrDISHfSm2rYO4H_6Bfevqe8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vTJdVE_gjI0"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-18T13:00:20Z",
+        "channelId": "UCWu91J5KWEj1bQhCBuGeJxw",
+        "title": "Đen x JustaTee - Đi Về Nhà (M/V)",
+        "description": "Đi Về Nhà - Đen x JustaTee Nghe/tải \"Đi Về Nhà\": https://denvau.lnk.to/divenha Sáng tác: Hứa Kim Tuyền, Xuân Ty Sáng tác rap: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vTJdVE_gjI0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vTJdVE_gjI0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vTJdVE_gjI0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Đen Vâu Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-18T13:00:20Z"
+      }
+    }
+  ]
+}

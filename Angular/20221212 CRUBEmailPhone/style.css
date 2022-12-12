@@ -1,0 +1,7 @@
+table {
+  border: solid 1px blue;
+}
+
+table th, td {
+  border: solid 1px blue;
+}
