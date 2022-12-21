@@ -2,7 +2,8 @@ var app = angular.module("App", []);
 app.controller('ContactController', function($scope) {
   var uid = 1;
   $scope.contacts = [
-    {id: 0, 'name': 'Do Duc Tho', 'email' : 'doductho@gmail.com','password': 123, 'phone': '123-456-789'}
+    {id: 0, 'name': 'Ngo Anh Tuan', 'email': 'tuananhngo@gmail.com', 'password': 123, 'phone': '111-222-333'},
+    {id: 1, 'name': 'Do Duc Tho', 'email' : 'doductho@gmail.com','password': 123, 'phone': '123-456-789'}
   ];
 
   $scope.saveContact = function() {
@@ -44,7 +45,5 @@ app.controller('ContactController', function($scope) {
 
   $scope.clearSearch = function() {
     $scope.searchInput = "";
-  };
-
-
+  }
 });
