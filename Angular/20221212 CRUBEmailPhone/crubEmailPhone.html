@@ -27,6 +27,7 @@
         <label for="">Email:</label> <br>
         <input type="text" name="email" ng-model="newcontact.email" placeholder="Enter email"/>
         <p ng-show="myForm.email.$touched && myForm.email.$invalid">The email is required.</p>
+        <p>{{newcontact.email}}</p>
       </div>
 
       <div class="password">
