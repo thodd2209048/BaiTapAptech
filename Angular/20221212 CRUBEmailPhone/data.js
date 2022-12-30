@@ -1,5 +1,5 @@
 var app = angular.module("App", []);
-app.controller('ContactController', function($scope) {
+app.controller('ContactController', function($scope, $http) {
   var uid = 1;
   $scope.contacts = [
     {id: 0, 'name': 'Do Duc Tho', 'email' : 'doductho@gmail.com','password': 123, 'phone': '123-456-789'}
@@ -46,5 +46,7 @@ app.controller('ContactController', function($scope) {
     $scope.searchInput = "";
   };
 
-
+  $scope.postdata = function (newcontact) {
+    
+  }
 });
