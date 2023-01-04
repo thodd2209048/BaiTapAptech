@@ -33,10 +33,14 @@ SELECT customer_id, Count(order_id) orders
 SELECT * FROM sales.orders
 GO
 
-SELECT product_id, product_name, p.brand_id, brand_name
+SELECT product_name, 
+	--category_name, 
+	--brand_name, 
+	i.list_price order_price,
+	p.list_price product_price
+
 	FROM production.products p
-	INNER JOIN production.brands n
-	ON p.brand_id = n.brand_id
+	JOIN sales.order_items i ON p.product_id = i.product_id
 GO
 
 SELECT c.first_name Customer_firstname, c.last_name Customer_lastname, product_name, s.first_name Staff_firstname, s.last_name Staff_Lastname
