@@ -24,8 +24,8 @@ CREATE VIEW KH2018
 AS SELECT FirstName, MiddleName, LastName, ssoh.OrderDate FROM Person.Person pp
 	INNER JOIN Sales.Customer sc ON pp.BusinessEntityID = sc.PersonID
 	INNER JOIN Sales.SalesOrderHeader ssoh ON ssoh.CustomerID = sc.CustomerID
-	GROUP BY FirstName, MiddleName, LastName
 WHERE YEAR(ssoh.OrderDate) = 2014
+GROUP BY FirstName, MiddleName, LastName, ssoh.OrderDate
 GO
 
 Drop view KH2018
@@ -33,3 +33,14 @@ GO
 
 SELECT * FROM KH2018
 GO
+
+CREATE VIEW SalesOrderDetail as
+SELECT pp.ProductID, pp.Name, ssod.UnitPrice, ssod.OrderQty, ssod.UnitPrice*ssod.OrderQty as [Total Price]
+FROM Sales.SalesOrderDetail ssod
+INNER JOIN Production.Product pp ON pp.ProductID = ssod.ProductID
+GO
+
+SELECT * FROM SalesOrderDetail
+GO
+
+
