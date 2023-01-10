@@ -5,7 +5,7 @@ GO
 CREATE DATABASE Assignment
 GO
 
-USE Assignment
+USE AssignmentAptechB6
 GO
 
 CREATE TABLE KhachHang(
@@ -60,6 +60,14 @@ INSERT INTO HangHoa(MaHang, TenHang, MoTa, DonVi, Gia)
 	VALUES('A02', 'Chuot Logitech Lift', 'Moi', 'Chiec', 1100),
 		('B23', 'Laptop Lenovo', 'Moi', 'Chiec', 15000)
 GO
+INSERT INTO HangHoa(MaHang, TenHang, MoTa, DonVi, Gia)
+	VALUES('T450', 'May tinh T450', 'May nhap moi', 'Chiec', 1000),
+		('Nokia5670', 'Dien thoai Nokia 5670', 'Dien thoai dang hot', 'Chiec', 200),
+		('PS450', 'May in Samsung 450', 'May in dang e', 'Chiec', 100)
+GO
+
+Select * from HangHoa
+GO
 
 INSERT INTO KhachHang(ID, TenKH, DiaChi, DienThoai)
 	VALUES('001', 'Tho', 'Hai Phong', '999-000'),
@@ -78,16 +86,24 @@ INSERT INTO DonHang(MaDonHang, NgayDatHang, IDKhachHang)
 	VALUES('0005', '2022-01-15', '003'),
 		('0006', '2022-12-01', '003')
 GO
+INSERT INTO DonHang(MaDonHang, NgayDatHang, IDKhachHang)
+	VALUES('123', '2009-11-18', '003')
+GO
 
 
 INSERT INTO ChiTietDonHang(MaDonHang, MaHang, SoLuong, Gia)
-	VALUES('0001', 'A02', 1, 1500),
-		('0002', 'B23', 1 , 10000)
+	VALUES('123', 'T450', 1, 1000),
+		('123', 'Nokia5670', 2 , 200),
+		('123', 'PS450', 1, 100)
 GO
 INSERT INTO ChiTietDonHang(MaDonHang, MaHang, SoLuong, Gia)
 	VALUES('0005', 'A02', 1, 1400),
 		('0005', 'B23', 1 , 10000),
 		('0006', 'B23', 1 , 10000)
+GO
+INSERT INTO ChiTietDonHang(MaDonHang, MaHang, SoLuong, Gia)
+	VALUES('123', 'A02', 1, 1500),
+		('0002', 'B23', 1 , 10000)
 GO
 
 --Danh sach khach hang da mua hang
@@ -123,4 +139,69 @@ SELECT TenHang FROM HangHoa h
 	ORDER BY TenHang
 GO
 
---
+--So khach hang da mua o cua hang.
+SELECT COUNT(DISTINCT IDKhachHang)
+	FROM DonHang
+GO
+
+--So mat hang ma cua hang ban.
+SELECT COUNT(DISTINCT MaHang) AS 'So mat hang da ban'
+	FROM ChiTietDonHang
+GO
+
+--Tong tien cua tung don hang.
+SELECT MaDonHang, SUM(SoLuong*Gia)
+	FROM ChiTietDonHang
+	GROUP BY MaDonHang
+GO
+
+--Viet cau lenh de thay doi truong gia tien cua tung mat hang la duong(>0).
+ALTER TABLE ChiTietDonHang
+	ADD CHECK (Gia>0)
+GO
+
+ALTER TABLE HangHoa
+	ADD CHECK (Gia>0)
+GO
+
+--Viet cau lenh de thay doi ngay dat hang cua khach hang phai nho hon ngay hien tai.
+ALTER TABLE DonHang
+	ADD CHECK (NgayDatHang < GETDATE())
+GO
+
+--Viet cau lenh de them truong ngay xuat hien tren thi truong cua san pham.
+ALTER TABLE HangHoa
+	ADD NgayXuatHien DATE
+GO
+
+--Dat chi muc (index) cho cot Ten hang va Nguoi dat hang de tang toc do truy van du lieu tren cac cot nay.
+CREATE INDEX TenHang
+	ON HangHoa(TenHang)
+GO
+
+CREATE INDEX TenKH
+	ON KhachHang(TenKH)
+GO
+
+--View_KhachHang voi cac cot: Ten khach hang, Dia chi, Dien thoai
+CREATE VIEW View_KhachHang AS
+	SELECT TenKH, DiaChi, DienThoai
+	FROM KhachHang
+GO
+
+--View_SanPham voi cac cot: Ten san pham, Gia ban
+CREATE VIEW View_SanPham AS
+	SELECT TenHang, Gia
+	FROM HangHoa
+GO
+
+--View_KhachHang_SanPham voi cac cot: Ten khach hang, So dien thoai, Ten san pham, So luong, Ngay mua
+CREATE VIEW View_KhachHang_SanPham AS
+	SELECT NgayDatHang, TenKH, DienThoai, TenHang, SoLuong
+	FROM DonHang dh
+	INNER JOIN KhachHang kh ON kh.ID = dh.IDKhachHang
+	INNER JOIN ChiTietDonHang ct ON ct.MaDonHang = dh.MaDonHang
+	INNER JOIN HangHoa hh ON hh.MaHang = ct.MaHang
+GO
+
+select * from View_KhachHang_SanPham
