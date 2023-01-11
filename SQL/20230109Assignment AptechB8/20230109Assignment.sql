@@ -204,4 +204,35 @@ CREATE VIEW View_KhachHang_SanPham AS
 	INNER JOIN HangHoa hh ON hh.MaHang = ct.MaHang
 GO
 
-select * from View_KhachHang_SanPham
+--SP_TimKH_MaKH: Tim khach hang theo ma khach hang
+CREATE PROCEDURE SP_TimKH_MaKH @TenKhachHang varchar(50)
+AS
+SELECT * FROM KhachHang WHERE TenKH like '%' + @TenKhachHang + '%'
+GO
+
+
+EXEC SP_TimKH_MaKH @TenKhachHang = 'An'
+GO
+
+--SP_TimKH_MaHD: Tim thong tin khach hang theo ma hoa don
+CREATE PROCEDURE SP_TimKH_MaHD @MaKhachHang char(8)
+AS
+SELECT * FROM KhachHang
+WHERE ID = @MaKhachHang
+GO
+
+EXEC SP_TimKH_MaHD @MaKhachHang = '003'
+GO
+
+--SP_SanPham_MaKH: Liet ke cac san pham duoc mua boi khach hang co ma duoc truyen vao Store.
+CREATE PROCEDURE SP_SanPham_MaKH @MaKhachHang CHAR(8)
+AS
+SELECT ID, TenKH, TenHang FROM KhachHang kh
+INNER JOIN DonHang dh ON kh.ID = dh.IDKhachHang
+INNER JOIN ChiTietDonHang ct ON ct.MaDonHang = dh.MaDonHang
+INNER JOIN HangHoa hh ON hh.MaHang = ct.MaHang
+WHERE ID = @MaKhachHang
+GO
+
+EXEC SP_SanPham_MaKH @MaKhachHang='003'
+GO
