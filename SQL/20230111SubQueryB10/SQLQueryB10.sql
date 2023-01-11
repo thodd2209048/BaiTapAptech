@@ -136,6 +136,7 @@ JOIN Course_Grades ON SID = SID_CG
 WHERE Grade >= 'C'
 GO
 
+-- Hien thi diem trung binh cua sinh vien(chua hoan thanh)
 SELECT S_FName, S_LName, AVG(Grade)
 FROM Student
 JOIN (
