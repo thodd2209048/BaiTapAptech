@@ -47,3 +47,43 @@ GO
 
 SELECT * FROM Product
 GO
+
+CREATE PROCEDURE HeavyToys @FindWeight int
+AS
+SELECT * FROM Product
+WHERE Netweight >= @FindWeight
+GO
+
+EXEC HeavyToys @FindWeight = 500
+GO
+
+CREATE PROCEDURE PriceIncrease
+AS
+	UPDATE Product
+	SET UnitPrice += 10
+	SELECT * FROM Product
+GO
+
+EXEC PriceIncrease
+GO
+
+CREATE PROCEDURE QtyOnHand 
+AS
+	UPDATE Product
+	SET QtyOnHand -=5
+	SELECT * FROM Product
+GO
+
+EXEC QtyOnHand
+GO
+
+--Viet cac cau lenh xem dinh nghia cuacac thu tuc tren dung 3 cach sau: 
+
+EXEC sp_helptext QtyOnHand
+GO
+
+SELECT * FROM sys.sql_modules
+GO
+
+
+
