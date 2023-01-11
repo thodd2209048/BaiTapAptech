@@ -64,3 +64,17 @@ insert into
 GO
 -- select
 select image_id, image_name from production.images where image_id = 3;
+GO
+
+alter table production.images
+add primary key (image_id)
+go
+--create clustered index
+create clustered index ix_image_id on production.images(image_id)
+go
+
+select image_id,image_name
+	from production.images where image_name = 'image3'
+go
+
+

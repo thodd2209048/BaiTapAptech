@@ -146,7 +146,7 @@ JOIN (
 	)
 GO
 
-SELECT AVG(Grade)
+SELECT S_FName, S_LName,  IntGrade
 	FROM Course_Grades
 GO
 
