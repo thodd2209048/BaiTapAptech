@@ -97,7 +97,57 @@ ALTER TABLE Course_Grades
 	ADD CONSTRAINT CID_CG_FK FOREIGN KEY (CID_CG) REFERENCES Course(CID) ON DELETE CASCADE
 GO
 
-ALTER TABLE Course_Grades DROP INDEX CID_CG_fk;
-ALTER TABLE Course_Grades DROP FOREIGN KEY SID_CG_fk;
+
+--Lay ra sinh vien co diem cao nhat
+SELECT S_FName, S_LName, Grade
+FROM (
+SELECT S_FName, S_LName, Grade
+FROM Student s
+INNER JOIN Course_Grades cg ON s.SID = cg.SID_CG
+) b1
+INNER JOIN (
+SELECT MIN(Grade) Min_Grade
+FROM Course_Grades C
+)b2 ON b1.Grade = b2.Min_Grade
+
 GO
+
+SELECT * FROM Student s
+INNER JOIN Course_Grades cg ON s.SID = cg.SID_CG
+WHERE Grade = (SELECT MIN(Grade) FROM Course_Grades)
+GO
+
+SELECT S_FName, S_LName, Semester, Grade, Faculty_LName 
+FROM Student
+JOIN Course_Grades ON SID = SID_CG
+JOIN Course ON CID = CID_CG
+GO
+
+SELECT S_FName, S_LName
+FROM Student
+JOIN Course_Grades ON SID = SID_CG
+JOIN Course ON CID = CID_CG
+WHERE Faculty_LName = 'iYer'
+GO
+
+SELECT S_FName, S_LName, Grade
+FROM Student
+JOIN Course_Grades ON SID = SID_CG
+WHERE Grade >= 'C'
+GO
+
+SELECT S_FName, S_LName, AVG(Grade)
+FROM Student
+JOIN (
+	SELECT AVG(Grade)
+	FROM Course_Grades
+	GROUP BY SID_CG
+	)
+GO
+
+SELECT AVG(Grade)
+	FROM Course_Grades
+GO
+
+
 
