@@ -1,3 +1,5 @@
+--part2 cua buoi 13
+
 IF EXISTS (SELECT * FROM sys.databases WHERE name = 'B16_Book')
     DROP DATABASE B16_Book
 GO
